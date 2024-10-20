@@ -1,5 +1,5 @@
 import { bytesToHex, equalBytes } from "@noble/ciphers/utils";
-
+import { Buffer } from 'buffer';
 import { isHkdfKeyCompressed } from "../config";
 import { convertPublicKeyFormat, getSharedKey, hexToPublicKey } from "../utils";
 import { PrivateKey } from "./PrivateKey";
